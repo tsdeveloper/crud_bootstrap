@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
+
+@import '~foundation-sites/assets/foundation', '~motion-ui/src/motion-ui', 'node_modules/slick-carousel/slick/slick';
+
+@include motion-ui-transitions;
+@include motion-ui-animations;
