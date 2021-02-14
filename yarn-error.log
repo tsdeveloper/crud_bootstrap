@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: EPERM: operation not permitted, copyfile '/home/webdevelop/.cache/yarn/v6/npm-bootstrap-4.6.0-97b9f29ac98f98dfa43bf7468262d84392552fd7-integrity/node_modules/bootstrap/LICENSE' -> '/mnt/d/app/projects/php/estudosphp_students/crud_bootstrap/node_modules/bootstrap/LICENSE'
+  Error: EPERM: operation not permitted, copyfile '/home/webdevelop/.cache/yarn/v6/npm-jquery-3.5.1-d7b4d08e1bfdb86ad2f1a3d039ea17304717abb5-integrity/node_modules/jquery/LICENSE.txt' -> '/mnt/d/app/projects/php/estudosphp_students/crud_bootstrap/node_modules/jquery/LICENSE.txt'
 
 npm manifest: 
   {
