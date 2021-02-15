@@ -8,13 +8,6 @@ $router->add('', ['controller' => 'Home', 'action' => 'index']);
 $router->add('posts', ['controller' => 'Posts', 'action' => 'index']);
 $router->add('posts/new', ['controller' => 'Posts', 'action' => 'new']);
 
-/*
-echo '<pre>';
-var_dump(
-    $router->getRoutes()
-);
-echo '</pre>';*/
-
 $url = $_SERVER['QUERY_STRING'];
 
 var_dump($url);
@@ -28,3 +21,4 @@ if ($router->match($url)) {
 else {
     echo  "No route found for URL '$url";
 }
+
